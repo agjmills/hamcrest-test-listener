@@ -27,7 +27,7 @@ class TestListenerTest extends TestCase
 {
     use MockeryPHPUnitIntegration;
 
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass(): void
     {
         // Require the Hamcrest global functions.
         Util::registerGlobalFunctions();
